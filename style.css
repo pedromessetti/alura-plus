@@ -1,5 +1,5 @@
 :root {
-    --main-white: #ffffff;
+    --main-white: #FFFFFF;
     --blue-button: #167BF7;
     --bg-color: #00030C;
     --secundary-grey: #C0C0C0;
@@ -198,16 +198,25 @@ footer p {
 
     .devices__list {
         display: block;
+        padding-right: 32px;
     }
-    
+
     footer {
         margin: 35em 3em 0;
         display: inline-block;
         width: 420px;
     }
 
+    footer img {
+        padding-left: 18px;
+    }
+
     footer ul {
         display: block;
         padding: 16px;
+    }
+
+    footer li {
+        padding-bottom: 10px;
     }
 }
