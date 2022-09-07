@@ -152,3 +152,57 @@ footer p {
     text-align: center;
     color: #C0C0C0;
 }
+
+@media screen and (max-width: 480px) {    
+    body {
+        width: 180px;
+    }
+    
+    .main {
+        background-position-x: -26px;
+    }
+
+    .container {
+        display: block;
+        width: 100vw;
+    }
+    
+    .container__title {
+        padding-top: 180px;
+        font-size: 22px;
+        width: 330px;
+    }
+
+    .container__button {
+        font-size: 18px;
+        width: 300px
+    }
+
+    .container__warning {
+        width: 330px;
+    }
+
+    .plataforms__image {
+        width: 90%;
+    }
+
+    .description__title {
+        font-size: 34px;
+    }
+
+    .screen__image {
+        width: 90%;
+    }
+
+    .devices {
+        display: grid;
+    }
+    
+    .last {
+        width: 516px;
+    }
+
+    .devices__list {
+        display: block;
+    }
+}
