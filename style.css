@@ -205,4 +205,15 @@ footer p {
     .devices__list {
         display: block;
     }
+    
+    footer {
+        margin: 35em 3em 0;
+        display: inline-block;
+        width: 420px;
+    }
+
+    footer ul {
+        display: block;
+        padding: 16px;
+    }
 }
